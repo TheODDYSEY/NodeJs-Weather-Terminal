@@ -27,7 +27,7 @@ prompt("Enter a location or a postal code: ", function (location) {
     .get(`${BASE_PATH}?q=${location}&units=imperial&appid=${API_KEY}`)
     .then((response) => {
       const weather = response;
-      const message = `\nCurrent date and time: ${weather.headers.date}\nIt's ${weather.data.main.temp} Farhnheit degrees in ${location}\nWith pressure of ${weather.data.main.pressure}hPa and wind speed of ${weather.data.wind.speed} m/s\nCloud cover is ${weather.data.clouds.all}% and visibility is ${weather.data.visibility} metres.`;
+      const message = `\nCurrent date and time: ${weather.headers.date}\nIt's ${weather.data.main.temp} Farhnheit degrees in ${location}\nWith pressure of ${weather.data.main.pressure} hPa and wind speed of ${weather.data.wind.speed} m/s\nCloud cover is ${weather.data.clouds.all}% and visibility is ${weather.data.visibility} metres.`;
 
       console.log(message);
       process.exit();
