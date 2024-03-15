@@ -41,7 +41,7 @@ Before running the script, ensure you have the following:
    The script will prompt you to enter a location or postal code. Provide the required input and press Enter.
 
 3. **View Weather Information:**
-   The script will make an API request to OpenWeatherMap, and upon success, it will display the current temperature in Fahrenheit and the date and time of the weather report.
+   The script will make an API request to OpenWeatherMap, and upon success, it will display the current temperature in Fahrenheit and the date and time of the weather report and also more weather data.
 
 4. **Explore Further:**
    Feel free to modify the script or extend its functionality based on your requirements. You can customize the output, add more features, or integrate it into other projects.
